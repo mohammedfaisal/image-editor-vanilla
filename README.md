@@ -3,7 +3,9 @@
 ### Steps to reproduce
 
 1. create vite vanilla project
-    `npm create vite@latest image-editor-vanilla -- --template vanilla`
+    ```bash
+    npm create vite@latest image-editor-vanilla -- --template vanilla
+    ```
 
 2. install dependencies
     ```bash
@@ -12,11 +14,17 @@
     ```
 
 3. Verify if vanilla project works
-    `npm run dev`
+    ```bash
+    npm run dev
+    ```
 
 4. Add image-edtor dependencies as specified here: https://github.com/scaleflex/filerobot-image-editor?tab=readme-ov-file#vanillajs
-    `npm install --save filerobot-image-editor react-filerobot-image-editor`
+    ```bash
+    npm install --save filerobot-image-editor react-filerobot-image-editor
+    ```
 
-5. Copy the vanillaJS example into the main.js
+5. Copy the vanillaJS example into the `main.js`
 
-6. Running will generate react errors
+6. Running will generate react errors as in the screenshot below:
+
+![Js Errors](error.png)
