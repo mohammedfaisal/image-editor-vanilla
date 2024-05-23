@@ -24,7 +24,3 @@
     ```
 
 5. Copy the vanillaJS example into the `main.js`
-
-6. Running will generate react errors as in the screenshot below:
-
-![Js Errors](error.png)
